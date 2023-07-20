@@ -3,13 +3,15 @@
 using namespace std;
 
 void bubbleSort(int arr[], int n)
-{
+{   
+    // setting up the counter at 1
     int counter = 1;
 
     while (counter < n)
     {
         for (int i = 0; i < n - counter; i++)
         {
+            // swapping the elements larger at adjacent positions
             if(arr[i] > arr[i+1])
             {
                 int temp = arr[i];
