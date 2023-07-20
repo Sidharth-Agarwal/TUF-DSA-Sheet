@@ -5,7 +5,7 @@ using namespace std;
 void insertionSort(int arr[], int n)
 {
     for (int i = 1; i < n;i++)
-    {   
+    {
         // defining a current element
         // correct position of the current element is to be calculated
         int current = arr[i];
