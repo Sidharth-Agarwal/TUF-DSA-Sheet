@@ -4,7 +4,10 @@ using namespace std;
 
 void mergeSort(int *arr, int n)
 {
-    
+    int size = n;
+
+    int first = 0;
+    int last = n - 1;
 }
 
 int main()
