@@ -8,6 +8,7 @@ void selectionSort(int arr[], int n)
     {
         int minIndex = i;
 
+        // finding the minimum element in the remaining array
         for (int j = i + 1; j < n; j++)
         {
             if(arr[j] < arr[minIndex])
@@ -15,7 +16,8 @@ void selectionSort(int arr[], int n)
                 minIndex = j;
             }
         }
-
+        
+        // swapping the current element with the minimum element
         if(minIndex != i)
         {
             int temp = arr[i];
