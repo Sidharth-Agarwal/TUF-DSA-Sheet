@@ -5,10 +5,28 @@ using namespace std;
 
 int findSecondLargest(int *arr, int n)
 {
-    int first = INT_MIN;
-    int second = arr[0];
+    int first = arr[0];
+    int second = INT_MIN;
 
-    
+    for (int i = 0; i < n; i++)
+    {
+        if(arr[i] > first)
+        {
+            second = first;
+            first = arr[i];
+
+        }
+
+        else if(arr[i] < first)
+        {
+            if(second == INT_MIN || second < arr[i])
+            {
+                second = arr[i];
+            }
+        }
+    }
+
+    return second;
 }
 
 int main()
@@ -27,7 +45,7 @@ int main()
         cin >> arr[i];
     }
 
-    int largest = findSecondLargest(arr, n);
+    int secondLargest = findSecondLargest(arr, n);
 
-    cout << "The second largest element of the array is : " << largest;
+    cout << "The second largest element of the array is : " << secondLargest;
 }
