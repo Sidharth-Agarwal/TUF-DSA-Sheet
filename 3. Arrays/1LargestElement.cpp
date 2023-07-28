@@ -35,4 +35,6 @@ int main()
     }
 
     int largest = findLargest(arr, n);
+
+    cout << "The largest element of the array is : " << largest;
 }
