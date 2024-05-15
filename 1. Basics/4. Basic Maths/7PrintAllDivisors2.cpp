@@ -15,7 +15,9 @@ vector<int> findDivisors(int n)
         if(n%i == 0)
         {
             divisors.push_back(i);
-
+        
+            // Add the counterpart divisor
+            // if it's different from i
             if(i != i/n)
             {
                 divisors.push_back(n/i);
@@ -42,3 +44,6 @@ int main()
         cout << divisor << " ";
     }
 }
+
+// Time Complexity - O(sqrt(N))
+// Space Complexity - O(1)
