@@ -40,3 +40,6 @@ int main()
     int answer = GCD(a,b);
     cout << "HCF : " << answer;
 }
+
+// Time complexity - O(min(a,b))
+// Space complexity - O(1)
