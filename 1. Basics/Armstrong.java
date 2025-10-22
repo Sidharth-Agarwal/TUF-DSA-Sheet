@@ -18,9 +18,9 @@ public class Armstrong {
         }
 
         if(number == armstrong) {
-            System.out.println("The number entered is an armstrong number");
+            System.out.print("The number entered is an armstrong number");
         } else {
-            System.out.println("The number entered is not an armstrong number");
+            System.out.print("The number entered is not an armstrong number");
         }
     }
 }

@@ -7,6 +7,6 @@ public class Types {
         float f = 1.403435f;
         double d = 494.94094494d;
         double result = (f*b) + (i/c) - (d-s);
-        System.out.println(result);
+        System.out.print(result);
     }
 }

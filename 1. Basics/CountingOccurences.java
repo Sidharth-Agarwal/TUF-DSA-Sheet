@@ -4,10 +4,10 @@ public class CountingOccurences {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter the number : ");
+        System.out.print("Enter the number : ");
         int number = scan.nextInt();
 
-        System.out.println("Enter the number whose occurence you want to find : ");
+        System.out.print("Enter the number whose occurence you want to find : ");
         int find = scan.nextInt();
 
         int occurence = 0;
@@ -23,6 +23,6 @@ public class CountingOccurences {
             }
         }
 
-        System.out.println("The occurences of the entered number is : " + occurence);
+        System.out.print("The occurences of the entered number is : " + occurence);
     }
 }

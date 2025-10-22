@@ -26,7 +26,7 @@ public class HCFLCM {
 
         lcm = (number1 * number2) / hcf;
 
-        System.out.println("HCF of " + number1 + " and " + number2 + " is: " + hcf);
-        System.out.println("LCM of " + number1 + " and " + number2 + " is: " + lcm);
+        System.out.print("HCF of " + number1 + " and " + number2 + " is: " + hcf);
+        System.out.print("LCM of " + number1 + " and " + number2 + " is: " + lcm);
     }    
 }

@@ -4,7 +4,7 @@ public class InputsSum {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Keep entering values except -1 to stop the program -");
+        System.out.print("Keep entering values except -1 to stop the program -");
         
         int sum = 0;
         int num = scan.nextInt();
@@ -14,6 +14,6 @@ public class InputsSum {
             num = scan.nextInt();
         }
 
-        System.out.println("The total for all the values is : " + (sum));
+        System.out.print("The total for all the values is : " + (sum));
     }    
 }
