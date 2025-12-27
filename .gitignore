@@ -1,1 +1,14 @@
+# Windows executables
 *.exe
+
+# macOS/Linux executables (files without extensions)
+*
+!*/
+!*.*
+!Makefile
+
+# *.exe - Ignores Windows executables (your existing rule)
+# * - Ignores everything
+# !*/ - But keeps all directories
+# !*.* - But keeps all files with extensions (.cpp, .h, .md, etc.)
+# !Makefile - But keeps Makefiles (they have no extension)
