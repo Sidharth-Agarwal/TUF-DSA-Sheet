@@ -7,11 +7,7 @@
                 "/opt/homebrew/Cellar/gcc/14.*/include/c++/14",
                 "/opt/homebrew/Cellar/gcc/14.*/include/c++/14/aarch64-apple-darwin*"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
+            "defines": [],
             "macFrameworkPath": [],
             "compilerPath": "/opt/homebrew/bin/g++-15",
             "cStandard": "c17",
