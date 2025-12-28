@@ -16,14 +16,15 @@ int main() {
     // Approach 1
     for(int i=0; i<n; i++) {
         for(int j=0; j<=i; j++) {
-            cout << char('A' + j);
+            cout << char('A' + i);
         }
         cout << endl;
     }
 
     // Approach 2
     for(int i=0; i<n; i++) {
-        for(char ch = 'A'; ch<='A'+i; ch++) {
+        char ch = 'A' + i;
+        for(int j=0;j<=i;j++) {
             cout << ch;
         }
         cout << endl;
