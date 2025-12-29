@@ -4,15 +4,16 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/homebrew/Cellar/gcc/14.*/include/c++/14",
-                "/opt/homebrew/Cellar/gcc/14.*/include/c++/14/aarch64-apple-darwin*"
+                "/opt/homebrew/include/**",
+                "/opt/homebrew/Cellar/gcc/15.*/include/c++/15",
+                "/opt/homebrew/Cellar/gcc/15.*/include/c++/15/aarch64-apple-darwin*"
             ],
             "defines": [],
             "macFrameworkPath": [],
             "compilerPath": "/opt/homebrew/bin/g++-15",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "linux-gcc-arm64"
+            "intelliSenseMode": "macos-gcc-arm64"
         }
     ],
     "version": 4
